@@ -1,0 +1,31 @@
+.spot{
+    width:50px;
+    height: 50px;
+    border: 1px black solid;
+}
+
+.gameboard{
+    display:grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px;
+}
+
+.one{
+    background-color: aquamarine;
+
+}
+.two{
+    background-color: rebeccapurple;
+}
+
+.one::after {
+    content: "O";
+    font-size: 2rem;
+    color: blue;
+}
+
+.two::after {
+    content: "X";
+    font-size: 2rem;
+    color: red;
+}
